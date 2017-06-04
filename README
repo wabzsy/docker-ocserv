@@ -1,0 +1,7 @@
+
+docker build . -t docker-ocserv
+docker run -d --privileged --name docker-ocserv -p 443:443/tcp docker-ocserv
+docker exec -ti docker-ocserv ocpasswd -c /etc/ocserv/ocpasswd -g "Global,Smart" wabzsy
+docker exec -ti docker-ocserv /bin/sh
+
+

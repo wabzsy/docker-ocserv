@@ -1,0 +1,4 @@
+default-select-group = Smart[智能模式]
+select-group = Global[全局模式]
+auto-select-group = false
+config-per-group = /etc/ocserv/config-per-group
